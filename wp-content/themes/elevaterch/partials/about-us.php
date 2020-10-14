@@ -1,4 +1,4 @@
-<section>
+<section id="nosotros">
     <div class="container pt-5 pb-5">
         <div class="row justify-content-center">
             <div class="col-lg-10">

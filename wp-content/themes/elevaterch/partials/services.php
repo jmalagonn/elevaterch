@@ -1,4 +1,4 @@
-<section class="gr-section">
+<section id="servicios" class="gr-section">
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col">
