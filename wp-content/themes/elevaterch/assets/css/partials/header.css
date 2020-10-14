@@ -1,0 +1,39 @@
+.desktop-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: white;
+    border-bottom: 1px solid var(--main-color)
+}
+
+.desktop-header.admin{
+    top: 32px;
+}
+
+.desktop-header img{
+    width: auto;
+}
+
+#menu-menu-principal{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-menu-principal li{
+    display: inline;
+    padding: 0 1rem;
+}
+
+#menu-menu-principal a{
+    color: rgba(50, 50, 50, 1);
+    transition: .5s;
+}
+
+#menu-menu-principal a:hover{
+    font-weight: bolder;
+    transition: .5s;
+    text-decoration: none;
+}

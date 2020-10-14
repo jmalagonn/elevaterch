@@ -1,0 +1,42 @@
+.hero-home{
+    min-height: 75vh;
+    background: url('../../images/hero_elevaterch.jpg') center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-home--overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-home--content{
+    z-index: 2;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero-home h1{
+    color: white;
+    font-size: 6rem;
+    letter-spacing: 5px;
+    font-family: "Audiowide"
+}
+
+.hero-home h3{
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+}
+
