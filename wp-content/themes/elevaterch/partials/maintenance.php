@@ -12,14 +12,14 @@
                     Un mantenimiento adecuado es la clave para un funcionamiento optimo y seguro de un equipo. En Elevaterch Ingenieria contamos con personal calificado para satisfacer los requerimientos de sus equipos.
                 </p>
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <svg class="mb-3 mt-3" width="300px" height="300px">
                     <use href="#maintenance-icon" />
                 </svg>
             </div>
         </div>
         <div class="row pt-5 align-items-center">
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <svg class="mb-3 mt-3" width="300px" height="300px">
                     <use href="#repair-icon" />
                 </svg>
@@ -48,14 +48,14 @@
                     Nuestros servicios de modernización se enfoca en mejorar la seguridad y confort de sus equipos con el fin de prolongar su vida útil y asi proteger su inversión inicial.
                 </p>
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <svg class="mb-3 mt-3" width="300px" height="300px">
                     <use href="#update-icon" />
                 </svg>
             </div>
         </div>
         <div class="row pt-5 align-items-center">
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <svg class="mb-3 mt-3" width="300px" height="300px">
                     <use href="#installation-icon" />
                 </svg>
@@ -84,7 +84,7 @@
                     Siguiendo estrictamente los lineamientos de la normatividad aplicada en los procesos de instalación, mantenimiento y modernización de equipos de transporte vertical, adecuamos tu equipo para el cumplimiento de la norma NTC 5926-1.
                 </p>
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <svg class="mb-3 mt-3" width="300px" height="300px">
                     <use href="#legal-icon" />
                 </svg>

@@ -40,3 +40,27 @@
     font-style: italic;
 }
 
+@media (max-width: 850px){
+    .hero-home h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 600px){
+    .hero-home h1{
+        font-size: 3rem;
+        letter-spacing: 3px;
+    }
+
+    .hero-home h3{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 450px){
+    .hero-home h1{
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+}
+

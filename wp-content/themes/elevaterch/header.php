@@ -11,7 +11,7 @@
 
 <body <?php body_class() ?>>
     <?php get_template_part('partials/icons/defs-icons') ?>
-    <header class="desktop-header <?php echo (is_user_logged_in() ? 'admin' : ''); ?>">
+    <header class="desktop-header d-none d-md-block <?php echo (is_user_logged_in() ? 'admin' : ''); ?>">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-6">
@@ -36,9 +36,41 @@
         </div>
     </header>
 
+    <header class="mobile-header d-md-none">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-8">
+                    <?php
+                    if (has_custom_logo()) {
+                        the_custom_logo();
+                    }
+                    ?>
+                </div>
+                <div class="col-4 text-right">
+                    <svg width="30px" height="30px">
+                        <use href="#menu-icon" />
+                    </svg>
+                </div>
+            </div>
+            <div class="row mt-3 desp-menu d-none">
+                <div class="col">
+                    <?php
+
+                    if (has_nav_menu('main_menu')) {
+                        wp_nav_menu(array(
+                            'theme_locaction' => 'main_menu'
+                        ));
+                    }
+
+                    ?>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div class="icon-whatsapp">
         <a href="https://wa.me/573112890608" target="_blank">
-            <svg width="50px" height="50px">
+            <svg class="wp-icon" width="50px" height="50px">
                 <use href="#whatsapp-icon" />
             </svg>
         </a>
