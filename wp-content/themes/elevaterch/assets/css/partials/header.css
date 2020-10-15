@@ -30,6 +30,7 @@
 #menu-menu-principal a{
     color: rgba(50, 50, 50, 1);
     transition: .5s;
+    cursor: pointer;
 }
 
 #menu-menu-principal a:hover{

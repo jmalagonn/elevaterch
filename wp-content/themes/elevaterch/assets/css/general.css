@@ -16,5 +16,14 @@ svg {
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
+}
+
+.el-btn{
+    background: var(--main-color);
+    color: white;
+}
+
+.el-btn:hover{
+    color: white;
 }
