@@ -15,16 +15,16 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-6">
-                    <?php 
-                    if( has_custom_logo()){
+                    <?php
+                    if (has_custom_logo()) {
                         the_custom_logo();
                     }
                     ?>
                 </div>
                 <div class="col-6 text-right">
                     <?php
-                    
-                    if( has_nav_menu('main_menu') ){
+
+                    if (has_nav_menu('main_menu')) {
                         wp_nav_menu(array(
                             'theme_locaction' => 'main_menu'
                         ));
@@ -35,3 +35,11 @@
             </div>
         </div>
     </header>
+
+    <div class="icon-whatsapp">
+        <a href="https://wa.me/573112890608" target="_blank">
+            <svg width="50px" height="50px">
+                <use href="#whatsapp-icon" />
+            </svg>
+        </a>
+    </div>
