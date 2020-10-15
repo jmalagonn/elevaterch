@@ -55,6 +55,11 @@
     .hero-home h3{
         font-size: 1rem;
     }
+
+    .hero-home{
+        background: url('../../images/hero_elevaterch.jpg') center no-repeat;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 450px){

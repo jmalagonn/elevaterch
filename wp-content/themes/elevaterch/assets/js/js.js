@@ -18,11 +18,11 @@
             }
         });
 
-        $('#menu-item-14').click(() => {
+        $('.menu-item-51').click(() => {
             $('#contacto').removeClass('d-none');
         })
     
-        $('#close-icon').click(() => {
+        $('.contacto-close').click(() => {
             $('#contacto').addClass('d-none');
         })
     
@@ -30,7 +30,7 @@
             $('#contacto').addClass('d-none');
         })
 
-        $('#menu-icon').click(() => {
+        $('.icon-col').click(() => {
             $('.desp-menu').toggleClass('d-none');
         })
     })

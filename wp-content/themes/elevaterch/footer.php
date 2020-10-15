@@ -2,7 +2,7 @@
         <div class="container pt-5 pb-5">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center">
-                    <img class="logo-footer" src="<?php echo get_theme_file_uri('assets/images') ?>/Logo Blanco.svg" alt="">
+                    <img class="logo-footer" src="http://elevaterchingenieria.com/wp-content/uploads/2020/10/Logo-Blanco.png" alt="Elevaterch ingeniería">
                 </div>
                 <div class="col-md-6 text-center">
                     <h6>CONTÁCTENOS</h6>

@@ -46,7 +46,7 @@
                     }
                     ?>
                 </div>
-                <div class="col-4 text-right">
+                <div class="col-4 text-right icon-col">
                     <svg width="30px" height="30px">
                         <use href="#menu-icon" />
                     </svg>
